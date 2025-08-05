@@ -39,3 +39,6 @@ h1 {
 .service-card p {
   color: #555;
 }
+.highlight {
+  border: 2px solid #007bff;
+}
