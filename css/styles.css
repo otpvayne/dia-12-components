@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif; /* Fuente predeterminada */
+  background-color: #f9f9f9;      /* Color suave de fondo */
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.services {
+  display: flex;                 /* Flexbox para organizar horizontalmente */
+  gap: 20px;                     /* Espacio entre tarjetas */
+  justify-content: center;      /* Centrar tarjetas */
+  flex-wrap: wrap;              /* Que se acomoden en varias líneas si es necesario */
+}
+
+.service-card {
+  background-color: #fff;        /* Fondo blanco para destacar */
+  border: 1px solid #ddd;        /* Borde gris claro */
+  border-radius: 8px;            /* Esquinas redondeadas */
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.05);        /* Efecto zoom al pasar el mouse */
+}
+
+.service-card h2 {
+  margin-top: 0;
+  color: #007bff;               /* Azul llamativo */
+}
+
+.service-card p {
+  color: #555;
+}
